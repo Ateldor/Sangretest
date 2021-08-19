@@ -61,8 +61,8 @@ a {
   display: flex;
   justify-content: space-around; }
 
-#principalMenuContacto {
-  margin-left: 35rem; }
+.principalMenuContacto {
+  margin-left: 5rem; }
 
 .lanzamientoLibros {
   display: flex;
@@ -173,6 +173,18 @@ color: white; }
   align-items: center;
   margin-bottom: 2rem; }
 
+  /*Página de referencias de los libros*/
+.parrafo p {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+  
+}
+
 /*Responsive*/
 @media (max-width: 599px) {
   h2 {
@@ -192,13 +204,14 @@ color: white; }
     width: 20rem; }
   .principalTitulo h1 {
     font-size: 4rem; }
-  #principalMenuContacto {
-    margin-left: 0; }
+  .principalMenuContacto {
+    margin-left: -5rem; }
   .principalMenu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    height: 4rem; }
   .maf img {
     width: 35rem; } }
 
@@ -215,7 +228,7 @@ color: white; }
     width: 40rem; }
   .principalTitulo h1 {
     font-size: 4rem; }
-  #principalMenuContacto {
+  .principalMenuContacto {
     margin-left: 0; }
   .principalMenu {
     display: flex;
@@ -236,7 +249,7 @@ color: white; }
     }
   .principalTitulo h1 {
     font-size: 5rem; }
-  #principalMenuContacto {
+  .principalMenuContacto {
     margin-left: 0; }
   .principalMenu {
     display: flex;
@@ -261,4 +274,8 @@ color: white; }
   .escritorMesBiografia img {
     width: 80rem; }
   .principalTitulo h1 {
-    font-size: 6rem; } }
+    font-size: 6rem; } 
+    .parrafo p {
+      margin-right: 3rem;
+      
+    }}
